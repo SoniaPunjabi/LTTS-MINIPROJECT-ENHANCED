@@ -1,5 +1,5 @@
 #include"headers.h"
-char* getWord(int randomIndex)
+int getWord(int randomIndex)
 {char* guessWords[] = {
 		"passport", 
 		"vaccine",
@@ -9,5 +9,5 @@ char* getWord(int randomIndex)
 		"potato"	
 	};
 	
-	return (guessWords[randomIndex]);}
+	return (randomIndex);}
 	

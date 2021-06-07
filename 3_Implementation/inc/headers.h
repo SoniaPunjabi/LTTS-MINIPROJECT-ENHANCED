@@ -15,7 +15,7 @@
 * @param[in] numLives
 * @return pointer to the correcponding string to print the hanging man
 */
-char* draw_platform(int numLives);
+int draw_platform(int numLives);
 
 /**
 *  subtracts the numLives by one when the user enters a wrong guess letter
@@ -29,6 +29,6 @@ int reduce_Life(int numLives);
 * @param[in] randomIndex
 * @return pointer to the word to be guessed
 */
-char* getWord(int randomIndex);
+int getWord(int randomIndex);
 
 #endif  /* #define __HEADERS_H__ */

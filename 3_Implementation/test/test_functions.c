@@ -89,10 +89,10 @@ void test_draw_platform(void) {
 
     };
 
-  TEST_ASSERT_EQUAL(platform[9],draw_platform(0));
+  TEST_ASSERT_EQUAL(9,draw_platform(0));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(platform[7],draw_platform(2));
+  TEST_ASSERT_EQUAL(7,draw_platform(2));
 }
 
 void test_reduce_Life(void) {
@@ -111,7 +111,7 @@ void test_getWord(void) {
 		"documentary",
 		"potato"	
 	};
-  TEST_ASSERT_EQUAL(guessWords[0], getWord(0));
+  TEST_ASSERT_EQUAL(0, getWord(0));
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(guessWords[5], getWord(5));
+  TEST_ASSERT_EQUAL(5, getWord(5));
 }

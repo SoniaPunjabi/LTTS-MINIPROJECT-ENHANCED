@@ -20,14 +20,73 @@ int main() {
 		"documentary",
 		"potato"	
 	};
+	char *platform[]={
+
+                     "      ===\n",
+
+                     "        |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "   =====|\n"
+                     "        |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "        |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     "  |     |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     "  |-    |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     " -|-    |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     " -|-    |\n"
+                     "  |     |\n"
+                     "       ===\n",
+
+                     "   |=====|\n"
+                     "   O     |\n"
+                     "  -|-    |\n"
+                     "  //     |\n"
+                     "       ===\n"
+
+    };
 	// index for random word
 	int randomIndex = rand() % 6;
 	
 	int numLives = 9;
 	int numCorrect = 0;
 	int oldCorrect = 0;
-	
-	int lengthOfWord = strlen(getWord(randomIndex));
+	int index = getWord(randomIndex);
+	int index2;
+	int lengthOfWord = strlen(guessWords[index]);
 	
 	//					     0 1 2 3 4 5
 	//				         p u r p l e
@@ -94,7 +153,8 @@ int main() {
 		
 		if( oldCorrect == numCorrect && reguessed == 0) {
 			numLives=reduce_Life(numLives);
-			printf("%s",draw_platform(numLives));
+			index2=draw_platform(numLives);
+			printf("%s",platform[index2]);
 			printf("Sorry, wrong guess\n");
 			
 			if (numLives == 0) {
