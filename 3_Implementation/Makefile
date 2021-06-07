@@ -52,10 +52,10 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o test.$(EXEC)
+	gcc $(TEST_SRC) $(INC) -o test.out
 	./test.$(EXEC)
 valgrind:
-	valgrind ./test.$(EXEC)
+	valgrind ./test.out
 
 # Remove all the built files, invoke by `make clean`
 clean:
