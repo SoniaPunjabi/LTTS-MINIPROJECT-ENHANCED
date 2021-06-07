@@ -15,6 +15,7 @@ void tearDown(){}
 /* Start of the application test */
 int main()
 {
+  
 /* Initiate the Unity Test Framework */
   UNITY_BEGIN();
 
@@ -29,21 +30,69 @@ int main()
 
 /* Write all the test functions */ 
 void test_draw_platform(void) {
-  TEST_ASSERT_EQUAL(
+  char *platform[]={
+
+                     "      ===\n",
+
+                     "        |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "   =====|\n"
+                     "        |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "        |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     "        |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     "  |     |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     "  |-    |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     " -|-    |\n"
+                     "        |\n"
+                     "       ===\n",
+
+                     "  |=====|\n"
+                     "  O     |\n"
+                     " -|-    |\n"
+                     "  |     |\n"
+                     "       ===\n",
+
                      "   |=====|\n"
                      "   O     |\n"
                      "  -|-    |\n"
                      "  //     |\n"
                      "       ===\n"
-,draw_platform(0));
+
+    };
+
+  TEST_ASSERT_EQUAL(platform[9],draw_platform(0));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(
-                     "  |=====|\n"
-                     "  O     |\n"
-                     " -|-    |\n"
-                     "        |\n"
-                     "       ===\n",draw_platform(2));
+  TEST_ASSERT_EQUAL(platform[7],draw_platform(2));
 }
 
 void test_reduce_Life(void) {
@@ -54,7 +103,15 @@ void test_reduce_Life(void) {
 }
 
 void test_getWord(void) {
-  TEST_ASSERT_EQUAL("passport", getWord(0));
+  char* guessWords[] = {
+		"passport", 
+		"vaccine",
+		"cheesecake",
+		"netflix",
+		"documentary",
+		"potato"	
+	};
+  TEST_ASSERT_EQUAL(guessWords[0], getWord(0));
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL("potato", getWord(5));
+  TEST_ASSERT_EQUAL(guessWords[5], getWord(5));
 }
