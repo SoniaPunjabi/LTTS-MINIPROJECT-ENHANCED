@@ -29,18 +29,21 @@ int main()
 
 /* Write all the test functions */ 
 void test_draw_platform(void) {
-  TEST_ASSERT_EQUAL("   |=====|\n"
+  TEST_ASSERT_EQUAL(
+                     "   |=====|\n"
                      "   O     |\n"
                      "  -|-    |\n"
                      "  //     |\n"
-                     "       ===\n", draw_platform(0));
+                     "       ===\n"
+,draw_platform(0));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL("  |=====|\n"
+  TEST_ASSERT_EQUAL(
+                     "  |=====|\n"
                      "  O     |\n"
                      " -|-    |\n"
                      "        |\n"
-                     "       ===\n", draw_platform(2));
+                     "       ===\n",draw_platform(2));
 }
 
 void test_reduce_Life(void) {
