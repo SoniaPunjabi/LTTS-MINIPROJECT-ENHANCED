@@ -54,6 +54,10 @@ doc:
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o test.out
 	./test.out
+coverage:$(TEST_SRC)
+	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o test.out
+	./test.out
+	gcov -a $(SRC) 
 valgrind:
 	valgrind ./test.out
 
