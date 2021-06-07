@@ -53,7 +53,7 @@ doc:
 # Build and run the unit tests
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o test.out
-	./test.$(EXEC)
+	./test.out
 valgrind:
 	valgrind ./test.out
 
