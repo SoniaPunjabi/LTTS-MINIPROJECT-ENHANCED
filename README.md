@@ -18,5 +18,5 @@ Hangman is a fun word guessing game where 2 or more players have to guess a word
 |6_Images|Contains all the images and video files required|
 ## Contributions List and Summary
 |PS No.|Name|Features|Issues Raised|Issues Resolved|Test Cases|Test Cases Passed|
-|:--:|:--:|:--:||:--:|:--:|:--:||:--:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |256315|Sonia|All|5|5|3|3|
