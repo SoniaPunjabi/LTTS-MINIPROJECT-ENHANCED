@@ -20,6 +20,6 @@ Hangman is a fun word guessing game where 2 or more players have to guess a word
 |PS No.|Name|Features|Issues Raised|Issues Resolved|Test Cases|Test Cases Passed|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |256315|Sonia|All|5|5|3|3|
-## Challenges faced and how i overcame them:
+## Challenges faced and how I overcame them:
 1) I faced issues issues with Makefile and Unit testing. I overcame them by going through the resources and recordings.
 2) I also faced issues with obtaining badges using github workflows. Overcame them by researching and going through resources on the internet.
