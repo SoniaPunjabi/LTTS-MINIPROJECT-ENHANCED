@@ -10,9 +10,9 @@ Hangman is a fun word guessing game where 2 or more players have to guess a word
 ## Folder Structure
 |Folder|Description|
 |:--:|:--:|
-|1_Requirements|Contains the list of requirements for the prject|
+|1_Requirements|Contains the list of requirements for the project|
 |2_Design|Description of the design|
 |3_Implements|Contains all the codes and documentation|
-|4_TestPlan|Contaions the test plan and procedures|
-|5_Report|Contains the project Report|
-|6_Images|Contains all the images andd video files required|
+|4_TestPlan|Contains the test plan and procedures|
+|5_Report|Contains the Project Report|
+|6_Images|Contains all the images and video files required|
