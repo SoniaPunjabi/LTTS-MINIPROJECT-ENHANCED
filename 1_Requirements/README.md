@@ -2,13 +2,20 @@
 Hangman is a fun word guessing game where 2 or more players have to guess a word letter by letter until all their chances are over. I have worked on a code for single player Hangman. There are 6 words in a 2 dimensional array. A random index number is generated using a function and the word corresponding to that index number needs to be guessed.
 # SWOT ANALYSIS
 ## STRENGTHS
-Very user friendly, simple and readable. Very easy to understand and implement. Very fun to play. Very Entertaining
+1) Very user friendly, simple and readable.
+2)  Very easy to understand and implement. 
+3)  Very fun to play. 
+4)  Very Entertaining
 ## WEAKNESSES
-Single player. Has a defined set of 6 words only which can be guessed by the player. Not very complex. 
+1) Single player. 
+2) Has a defined set of 6 words only which can be guessed by the player.
+3)  Not very complex. 
 ## OPORTUNITIES
-The number of words can be increased if required. The number of guessing chances can also be increased. Can also be extended to multiple players.
+1) The number of words can be increased if required.
+2) The number of guessing chances can also be increased.
+3)  Can also be extended to multiple players.
 ## THREATS
-Limited number of words to choose from.
+1) Limited number of words to choose from.
 # 4W'S and 1H
 ## Who??
 * Product owner : Client (Player)
@@ -24,13 +31,21 @@ The dealine of this project is the 13th of June 2021, so it will be completed by
 ## How?
 This project is written in C programming language based on Input and Output.
 ## High level Requirements
-|      ID       | Requirement                |
-| ------------- | -------------------------- |
-|    HLR01      | List of words              |
-|    HLR02      | Life Tracking              |
+|      ID       | Requirement                | Implemented/Future|
+| ------------- | -------------------------- | ------------------|
+|    HLR01      | List of words              | Implemented       |
+|    HLR02      | Life Tracking              | Implemented       |
+|    HLR03      | Memory for guessed letters | Implemented       |
 ## Low level Requirements
-|      ID       | Requirement                                      |
-| ------------- | -------------                                    |
-|    LLR01      | Printing not correct when guess is wrong         |
-|    LLR02      | Printing the dashes as the letters get filled in |
+|      ID       | Requirement                                              | HLR ID | Implemented/Future|
+| ------------- | ---------------------------------------------------------|--------|-------------------|
+|    LLR01      | Data for the word List                                   | HLR01  | Implemented       |
+|    LLR02      | Function for choosing a word to guess from the word list | HLR01  | Implemented       |
+|    LLR03      | Function to reduces the number of lives for a wrong guess| HLR02  | Implemented       |
+|    LLR04      | Function for printing the platform for every wrong guess | HLR02  | Implemented       |
+|    LLR05      | Entering the correct guessed letter in the string        | HLR03  | Implemented       |
+
+
+
+
 
