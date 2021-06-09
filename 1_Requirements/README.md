@@ -7,22 +7,6 @@ Hangman is a fun word guessing game where 2 or more players have to guess a word
 - The system reduces a life if the letters is incorrect.
 # SWOT ANALYSIS
 ![image](https://user-images.githubusercontent.com/64728477/121274408-0c581880-c8e8-11eb-8f44-8b1bb7196592.png)
-
-## STRENGTHS
-1) Very user friendly, simple and readable.
-2)  Very easy to understand and implement. 
-3)  Very fun to play. 
-4)  Very Entertaining
-## WEAKNESSES
-1) Single player. 
-2) Has a defined set of 6 words only which can be guessed by the player.
-3)  Not very complex. 
-## OPORTUNITIES
-1) The number of words can be increased if required.
-2) The number of guessing chances can also be increased.
-3)  Can also be extended to multiple players.
-## THREATS
-1) Limited number of words to choose from.
 # 4W'S and 1H
 ## Who??
 * Product owner : Client (Player)
