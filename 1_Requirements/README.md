@@ -1,7 +1,7 @@
 # Introduction
 Hangman is a fun word guessing game where 2 or more players have to guess a word letter by letter until all their chances are over. I have worked on a code for single player Hangman. There are 6 words in a 2 dimensional array. A random index number is generated and the word corresponding to that index number needs to be guessed. As the number of wrong guesses increases the number of lives/chances decreases and platform corresponding to the number of lives left is printed for every wrong guess.
 # Defining our System
-![image](https://user-images.githubusercontent.com/64728477/121725712-40f5eb00-cb07-11eb-9503-ca1c35d933a2.png)
+![image](https://user-images.githubusercontent.com/64728477/121755882-f9d31e80-cb35-11eb-9efb-c20c7bfd284a.png)
 - The system asks the player for a guess letter and the player enters it.
 - The system checks if the letter is correct or not.
 - The system reduces a life if the letters is incorrect.
