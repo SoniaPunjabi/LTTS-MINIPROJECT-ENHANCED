@@ -1,6 +1,7 @@
 # LTTS-MINIPROJECT-ENHANCED
 ## HANGMAN GAME
 ## Code Checks
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/32f9f3095ec7430bab4fee80154602ff)](https://www.codacy.com/gh/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED&amp;utm_campaign=Badge_Grade)
 |Build|Unit Test|Cppcheck|
 |:--:|:--:|:--:|
 |[![C/C++ CI](https://github.com/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/actions/workflows/c-build.yml/badge.svg)](https://github.com/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/actions/workflows/c-build.yml)|[![Unit test](https://github.com/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/actions/workflows/unit-test.yml/badge.svg)](https://github.com/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/actions/workflows/unit-test.yml)|[![cppcheck-action](https://github.com/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SoniaPunjabi/LTTS-MINIPROJECT-ENHANCED/actions/workflows/cppcheck.yml)|
